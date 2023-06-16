@@ -1,5 +1,59 @@
 # Changelog
 
+## 1.0.0 (2023-06-16)
+
+
+### Features
+
+* add `hocus` variants to Tailwind config ([bc9cf94](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/bc9cf94da943057c4746808fdcddbe6d20524501))
+* add CSP meta tag ([545c427](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/545c427195ca924aace4cf0c9a283ba0e02b06a2))
+* add custom Storybook theme ([5accf76](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/5accf76728a99e5fc703ad8ff17a751fee054df5))
+* add header and footer components ([d42c325](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/d42c3259dc0f3f1099bcb0d16cca1b0a07a04e67))
+* extend recommended ESLint presets ([566e9e0](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/566e9e040fd13d255cf57eb2334e0c557516fbad))
+* extend stricter ESLint presets ([b29ade0](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/b29ade019e37310951e80e5ed33223f50aa0c43c))
+* initial commit ([78ab2f1](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/78ab2f12347e2079ecba6ddd84a08413fedd24d4))
+* respect `prefers-color-scheme` in apps ([f12f98b](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/f12f98bf660dd505bcd38c9d98b8f867d2fb30fb))
+* transpile packages instead of building them, to simplify workflow ([338e27a](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/338e27a224e0c4cb4f435f32dd7fb1e84f83cc88))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @headlessui/react to v1.7.14 ([dc112c4](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/dc112c48f9679789112808e84846e84f7413ae90))
+* **deps:** update dependency @headlessui/react to v1.7.15 ([671e1b9](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/671e1b95518f96f80e9610d507c14c7dcd72e492))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.57.1 ([dfcb85b](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/dfcb85b6a374b703b2a5a6e202c196fae2755350))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.58.0 ([c7428ab](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/c7428ab12241aa59ede738b5df926475c744a874))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.1 ([54810df](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/54810dfd30575d3904598abb8b95d32bfb23a61d))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.11 ([31cf927](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/31cf92778b7a892084b25168623fd491d1646ab1))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.2 ([67f65f3](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/67f65f3f7695dab4045e87b7dcf4dd2a84522118))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.5 ([16e3566](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/16e3566b3d9f5ee336c12dd30d735b90b59ee6e7))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.6 ([196f0e4](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/196f0e481898eeac7224d00c556aa52fa325d388))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.7 ([e01ff85](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/e01ff85f75aa5cc0b7322a88f40c4ed0c3b62834))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.8 ([55b4bcf](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/55b4bcf8ee77f6c54d3687ac9e2dcfcc2987243d))
+* **deps:** update dependency @typescript-eslint/eslint-plugin to v5.59.9 ([cf5bfd3](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/cf5bfd32c9b09e85811bc607b9e612918e64c146))
+* **deps:** update dependency eslint-config-prettier to v8.8.0 ([6cbdbe1](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/6cbdbe1bb277063f859670af1f75a79b5cfad2fb))
+* **deps:** update dependency eslint-config-turbo to v0.0.10 ([c026030](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/c0260308a2c593693e51cfbd3011117204078e38))
+* **deps:** update dependency eslint-config-turbo to v1 ([419f224](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/419f2241fb2cfb14fa542e1630f99863181450bd))
+* **deps:** update dependency eslint-config-turbo to v1.8.8 ([f19b531](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/f19b531f3691e86df1751cb5affdb0e96e4684e0))
+* **deps:** update dependency eslint-config-turbo to v1.9.0 ([4288bf2](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/4288bf27a08fc19e22a0895df155fc9bfa1139f3))
+* **deps:** update dependency eslint-config-turbo to v1.9.3 ([5ec4a52](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/5ec4a52a2acd2c431f76281f07d31cf690e78dee))
+* **deps:** update dependency eslint-config-turbo to v1.9.4 ([023da35](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/023da3514178d7737262a6be0ea6cff2b0febfdc))
+* **deps:** update dependency eslint-config-turbo to v1.9.6 ([60b3ac0](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/60b3ac05e066069888d939a2952c96cc58ad35c3))
+* **deps:** update dependency eslint-config-turbo to v1.9.7 ([5eb79ba](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/5eb79ba3454f2602bf7729197027d1e88d2b7cb1))
+* **deps:** update dependency eslint-config-turbo to v1.9.8 ([e5ee608](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/e5ee608f7fa4f4c98c4eaadf4b90e9adba865006))
+* **deps:** update dependency eslint-config-turbo to v1.9.9 ([b615461](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/b615461c4107907eb37f13f908330a199ed476ef))
+* **deps:** update dependency eslint-plugin-jest-dom to v5 ([a2413f8](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/a2413f8dd1d5e6efdb47f3bbde585fbcf8549157))
+* **deps:** update dependency eslint-plugin-jest-dom to v5.0.1 ([b1a0260](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/b1a0260a117c0040d52dbec39bf5d818a5ec1e8e))
+* **deps:** update dependency eslint-plugin-storybook to v0.6.12 ([f77526f](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/f77526f62fd379e5014b195106a7a7043294c4b4))
+* **deps:** update dependency eslint-plugin-testing-library to v5.10.3 ([3ec35c9](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/3ec35c9b88f864cf1922fc1ce2882f047b30eec1))
+* **deps:** update dependency eslint-plugin-testing-library to v5.11.0 ([0eed1fb](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/0eed1fb19fa60f9dd14c0590d2ada16c95a7cc3e))
+* **deps:** update turbo monorepo to v1.10.0 ([389e1f7](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/389e1f7364458dbe2655d2f25d64ffb073e0700f))
+* **deps:** update turbo monorepo to v1.10.1 ([a8494ba](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/a8494babe0d8ad1ffcbb244d3c69a0dd30ccac91))
+* **deps:** update turbo monorepo to v1.10.2 ([04a38e3](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/04a38e3a0bc80dd749364265645135822c3e7830))
+* **deps:** update turbo monorepo to v1.10.3 ([cb08533](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/cb085338bb10a7c7ed07a3bd3b558d9ba2f854e5))
+* disable Lighthouse `bf-cache` ([0843ad1](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/0843ad12aef2ec82db3b46c259c55c9b18264e96))
+* remove deprecated CSP `prefetch-src` ([3dd2bbe](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/3dd2bbebfc853009ae2259613e4e5e21440897f2))
+* solve issues flagged by Lighthouse ([bcc0c3d](https://github.com/dragonworr/monorepo-nextjs-tailwindcss-template/commit/bcc0c3def1bc695d4421156fb30cc26ccf827c2c))
+
 ## [1.6.14](https://github.com/myopic-design/monorepo-nextjs-tailwindcss-template/compare/v1.6.13...v1.6.14) (2023-06-13)
 
 
